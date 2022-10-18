@@ -1,0 +1,380 @@
+.body{
+   
+    background-image: url(img/ti-abre.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 2%;
+    background-size: 1560px 400px;
+}
+
+.body2{
+  margin-left:100px;
+  margin-right: 100px;
+}
+header{
+    background-color: rgba(59, 188, 197, 0.752) ;
+    text-align: center;
+
+}
+ 
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.img3{
+  width: 500px;
+  height: 500px;
+}
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+.espaço{
+    margin-top: 550px;
+}
+
+
+
+/* NAVBAR */
+#navbar {
+  border-bottom: 1px solid #00c3ff;
+  background-color: #f5fafc;
+}
+
+#navbar a {
+  color: #050505;
+}
+
+#navbar a:hover {
+  color: #7a7a7a;
+}
+
+#navbar .active {
+  border-bottom: 1px solid #3388e9;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-brand span {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#navbar-items .nav-item {
+  margin: 0 1em;
+}
+  
+  /* SLIDER */
+  #slider {
+    margin-top: em;
+    margin-left: em;
+    margin-right: em;
+    margin-bottom: em;
+    max-width: 800px;
+    padding: px;
+ 
+  }
+  
+  #slider .carousel-caption {
+    bottom: 1em;
+  }
+  
+  #slider .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: rgb(15, 15, 15) 2px 2px;
+  }
+  
+  .btn {
+    border-radius: 1000cm;
+  }
+  
+  #slider .btn {
+    padding: 0.3em 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0.7;
+  }
+  
+  .carousel-control-prev i,
+  .carousel-control-next i {
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: rgb(241, 241, 241);
+    opacity: 0.8;
+  }
+  
+  .carousel-indicators .active {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  @media (min-width: 768px) {
+    #slider .carousel-caption {
+      bottom: 2em;
+    }
+    #slider .carousel-caption h5 {
+      font-size: 4em;
+      text-shadow: #000 2px 3px;
+    }
+    #slider .btn {
+      padding: 0.6em 1.6em;
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
+    .carousel-indicators {
+      bottom: 0em;
+    }
+  }
+
+  /* Cor do fundo */
+  #texto1{
+      background-color: rgb(239, 237, 237);
+      
+  }
+  
+  #texto2{
+    background-color: rgb(239, 237, 237);
+    
+}
+
+#texto3{
+  background-color: rgb(239, 237, 237);
+  
+}
+
+#texto4{
+  background-color: rgb(239, 237, 237);
+  
+}
+
+#texto5{
+  background-color: rgb(239, 237, 237);
+  
+  
+}
+
+.bordabaixo{
+  border-bottom:1px solid #00c3ff ;
+}
+
+/* imagem */
+  img{
+      max-width: 500px;
+  }
+
+  .borda{
+    border-left: 1px solid #00c3ff;
+    border-bottom: 1px solid #00c3ff ;
+  }
+
+  .borda1{
+    border-right: 1px solid #00c3ff;
+    border-left: 1px solid #00c3ff;
+    border-bottom: 1px solid #00c3ff ;
+  }
+  
+
+  .cores1{
+      background-color: #000;
+  }
+
+  /* Fontes  */
+  .p2{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #00c3ff;
+    text-align: center;
+  }
+
+  .h32{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #00c3ff;
+    text-align: center;
+  }
+
+  .p3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #id1{
+    text-align: center;
+  }
+
+  .p4{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    margin-top: 2em;
+  }
+
+  .p5{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .h41{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #00c3ff;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+/* footer */
+
+#myFooter {
+  background-color: #000000;
+  color: white;
+}
+
+
+#myFooter .info{
+  text-align: justify; 
+  color: #ffffff;
+
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+  border-right: 1px solid wheat;
+  
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: #00c3ff;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter .logo{
+  margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a{
+  color:white;
+  font-size: 28px;
+  float: left;
+  font-weight: bold;
+  line-height: 68px;
+  margin: 0;
+  padding: 0;
+}
+
+#myFooter a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter .second-bar {
+  text-align: center;
+  background-color: #33373e;
+  text-align: center;
+}
+
+#myFooter .second-bar a {
+  font-size: 22px;
+  color: #9fa3a9;
+  padding: 10px;
+  transition: 0.2s;
+  line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+  text-decoration: none;
+}
+
+#myFooter .social-icons {
+  float:right;
+}
+
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+  color: purple;
+}
+
+#myFooter .twitter:hover {
+  color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+      text-align: center;
+  }
+
+  #myFooter .info{
+      text-align: center;
+  }
+}
+
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+
+
+
+.paragrafo{
+  font-size: 50px;
+  color: rgb(93, 164, 92);
+}
+
+.p1{
+  color: #00aced;
+}
+.p2{
+  color: #7b00ff;
+}
+.p3{
+  color: ;
+}
+.p13{
+  
+}
+.p4{
+  
+}
